@@ -259,7 +259,9 @@ function eventKrpanoLoaded (isWebVr) {
 	
 	}else{
 	
-	addKolorArea('description');
+	addKolorBox('gallery3');
+addKolorBox('gallery2');
+addKolorArea('description');
 addKolorBox('websiteViewer');
 addKolorBox('gallery');
 addKolorBox('gallery1');
@@ -279,6 +281,8 @@ function eventUnloadPlugins () {
 deleteKolorBox('gallery');
 deleteKolorBox('websiteViewer');
 deleteKolorArea('description');
+deleteKolorBox('gallery2');
+deleteKolorBox('gallery3');
 
 }
 

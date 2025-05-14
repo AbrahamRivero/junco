@@ -6,34 +6,74 @@
 <!-- ************************ -->
 
   <data name="es_project_title"><![CDATA[Museo Provincial Palacio de Junco]]></data>
+  <data name="es_project_author_name"><![CDATA[Camilo Hdez.Perez]]></data>
 
+
+
+  <data name="es_pano11402_title"><![CDATA[JUNCO-PORTAL]]></data>
 
 
   <data name="es_pano1336_title"><![CDATA[IMG_20241119_105611_00_merged copia]]></data>
   <data name="es_spotpoint2800_tooltip"><![CDATA[Ver en 3D]]></data>
   <data name="es_spotpoint2800websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./indexdata/extras/german-clock-viewer.html]]></data>
   <data name="es_spotpoint2800websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[Ver en 3D]]></data>
+  <data name="es_spotpoint12339_tooltip"><![CDATA[Ir al portal]]></data>
+  <data name="es_spotpoint12339openurlwebsiteurl"><![CDATA[https://cubapano.github.io/laplazadelavigia?s=pano75&h=30.3125&v=0.0000&f=80.0000&skipintro=true&norotation=true]]></data>
 
 
   <data name="es_pano465_title"><![CDATA[IMG_20241112_104228_00_merged]]></data>
 
 
   <data name="es_pano10_title"><![CDATA[IMG_20241112_100049_00_merged]]></data>
+  <data name="es_spotpoint14067_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15365_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15366_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15367_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15369_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15370_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15371_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15372_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15373_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15375_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint16692_tooltip"><![CDATA[Maqueta del puente giratorio]]></data>
 
 
   <data name="es_pano11_title"><![CDATA[IMG_20241112_105949_00_merged]]></data>
+  <data name="es_spotpoint16691_tooltip"><![CDATA[Maqueta del puente giratorio]]></data>
 
 
   <data name="es_pano13_title"><![CDATA[IMG_20241112_100121_00_merged]]></data>
+  <data name="es_spotpoint16690_tooltip"><![CDATA[Maqueta del puente giratorio]]></data>
 
 
   <data name="es_pano14_title"><![CDATA[IMG_20241112_095837_00_merged]]></data>
+  <data name="es_spotpoint15320_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15321_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15322_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15323_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15324_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15325_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15326_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15327_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15328_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint16694_tooltip"><![CDATA[Maqueta del puente giratorio]]></data>
 
 
   <data name="es_pano15_title"><![CDATA[IMG_20241112_100015_00_merged]]></data>
+  <data name="es_spotpoint15347_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15348_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15349_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15350_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15351_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15352_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15353_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15354_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint15355_tooltip"><![CDATA[INFO]]></data>
+  <data name="es_spotpoint16693_tooltip"><![CDATA[Maqueta del puente giratorio]]></data>
 
 
   <data name="es_pano45_title"><![CDATA[IMG_20241112_105908_00_merged]]></data>
+  <data name="es_spotpoint16689_tooltip"><![CDATA[Maqueta del puente giratorio]]></data>
 
 
   <data name="es_pano84_title"><![CDATA[IMG_20241112_094152_00_merged]]></data>
@@ -82,6 +122,7 @@
 
 
   <data name="es_pano276_title"><![CDATA[IMG_20241112_105644_00_merged]]></data>
+  <data name="es_spotpoint14057_tooltip"><![CDATA[BIOGRAFIA COBO]]></data>
 
 
   <data name="es_pano277_title"><![CDATA[IMG_20241112_105713_00_merged]]></data>
@@ -297,6 +338,7 @@
 
   <data name="es_pano7369_title"><![CDATA[IMG_20241119_095320_00_merged-DeNoiseAI-low-light]]></data>
   <data name="es_spotpoint9346_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10859_tooltip"><![CDATA[Ver INFO]]></data>
 
 
   <data name="es_pano7370_title"><![CDATA[IMG_20241119_095414_00_merged-DeNoiseAI-low-light]]></data>
@@ -323,27 +365,56 @@
   <data name="es_pano7374_title"><![CDATA[IMG_20241119_095743_00_merged-DeNoiseAI-low-light]]></data>
   <data name="es_spotpoint9356_tooltip"><![CDATA[Ver INFO]]></data>
   <data name="es_spotpoint9357_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10806_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10815_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10816_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10817_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10818_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10819_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10820_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10821_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10862_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10863_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10864_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10865_tooltip"><![CDATA[Ver INFO]]></data>
 
 
   <data name="es_pano7375_title"><![CDATA[IMG_20241119_095838_00_merged-DeNoiseAI-low-light]]></data>
 
 
   <data name="es_pano7376_title"><![CDATA[IMG_20241119_100009_00_merged-DeNoiseAI-low-light]]></data>
+  <data name="es_spotpoint10822_tooltip"><![CDATA[Ver INFO]]></data>
 
 
-  <data name="es_pano7377_title"><![CDATA[IMG_20241119_100053_00_merged-DeNoiseAI-low-light]]></data>
+  <data name="es_pano7377_title"><![CDATA[IMG_20250129_143420_00_merged-DeNoiseAI-low-light]]></data>
+  <data name="es_spotpoint10823_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10836_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10837_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10838_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10839_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10840_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10841_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10842_tooltip"><![CDATA[Ver INFO]]></data>
 
 
   <data name="es_pano7378_title"><![CDATA[IMG_20241119_100134_00_merged-DeNoiseAI-low-light]]></data>
 
 
   <data name="es_pano7379_title"><![CDATA[IMG_20241119_100218_00_merged-DeNoiseAI-low-light]]></data>
+  <data name="es_spotpoint10843_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10844_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10860_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10861_tooltip"><![CDATA[Ver INFO]]></data>
 
 
   <data name="es_pano7380_title"><![CDATA[IMG_20241119_100307_00_merged-DeNoiseAI-low-light]]></data>
 
 
   <data name="es_pano7381_title"><![CDATA[IMG_20241119_100352_00_merged-DeNoiseAI-low-light]]></data>
+  <data name="es_spotpoint10845_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10856_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10857_tooltip"><![CDATA[Ver INFO]]></data>
+  <data name="es_spotpoint10858_tooltip"><![CDATA[Ver INFO]]></data>
 
 
   <data name="es_pano7382_title"><![CDATA[IMG_20241119_100802_00_merged-DeNoiseAI-low-light]]></data>
@@ -430,119 +501,114 @@
   <data name="es_pano8874_title"><![CDATA[IMG_20250129_143330_00_merged-DeNoiseAI-low-light]]></data>
 
 
-  <data name="es_pano8875_title"><![CDATA[IMG_20250129_143420_00_merged-DeNoiseAI-low-light]]></data>
-
-
-	<data name="es_spotmap10225_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10226_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10227_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10228_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10229_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10230_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10231_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10232_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10233_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10234_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10235_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10236_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10237_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10238_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10239_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10240_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10241_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10242_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10243_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10244_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10245_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10246_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10247_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10248_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10249_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10250_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10251_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10252_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10253_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10254_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10255_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10256_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10257_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10258_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10259_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10260_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10261_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10262_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10263_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10264_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10265_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10266_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10267_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10268_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10269_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10270_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10271_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10272_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10273_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10274_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10275_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10276_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10277_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10278_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10279_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10280_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10281_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10282_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10283_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10284_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10285_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10286_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10287_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10288_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10289_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10290_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10291_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10292_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10293_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10294_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10295_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10296_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10297_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10298_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10299_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10300_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10301_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10302_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10303_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10304_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10305_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10306_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10307_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10308_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10309_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10310_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10311_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10312_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10313_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10314_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10315_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10316_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10317_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10318_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10319_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10320_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10321_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10322_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10323_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10324_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10325_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10326_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10327_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10328_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10329_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10330_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10331_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10332_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10333_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap10334_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20490_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20491_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20492_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20493_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20494_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20495_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20496_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20497_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20498_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20499_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20500_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20501_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20502_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20503_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20504_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20505_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20506_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20507_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20508_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20509_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20510_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20511_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20512_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20513_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20514_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20515_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20516_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20517_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20518_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20519_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20520_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20521_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20522_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20523_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20524_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20525_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20526_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20527_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20528_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20529_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20530_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20531_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20532_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20533_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20534_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20535_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20536_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20537_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20538_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20539_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20540_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20541_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20542_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20543_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20544_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20545_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20546_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20547_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20548_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20549_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20550_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20551_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20552_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20553_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20554_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20555_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20556_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20557_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20558_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20559_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20560_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20561_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20562_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20563_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20564_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20565_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20566_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20567_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20568_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20569_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20570_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20571_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20572_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20573_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20574_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20575_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20576_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20577_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20578_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20579_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20580_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20581_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20582_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20583_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20584_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20585_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20586_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20587_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20588_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20589_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20590_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20591_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20592_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20593_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20594_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20595_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20596_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap20597_tooltip"><![CDATA[]]></data>
 
 
 
@@ -581,6 +647,28 @@
   <data name="es_descriptiondescription_title"><![CDATA[INFO]]></data>
   <data name="es_descriptiondisplay_close_text"><![CDATA[Cerrar]]></data>
   <data name="es_callActionsOnTourEvents1panoid1020"><![CDATA[pano2542]]></data>
+  <data name="es_gallery2play_text"><![CDATA[Iniciar / Detener]]></data>
+  <data name="es_gallery2navprev_text"><![CDATA[Anterior]]></data>
+  <data name="es_gallery2navnext_text"><![CDATA[Siguiente]]></data>
+  <data name="es_gallery2fullscreen_text"><![CDATA[Modo Pantalla Completa]]></data>
+  <data name="es_gallery2close_text"><![CDATA[Cerrar]]></data>
+  <data name="es_gallery2picture_title0"><![CDATA[]]></data>
+  <data name="es_gallery2picture_caption0"><![CDATA[]]></data>
+  <data name="es_gallery2picture_title1"><![CDATA[]]></data>
+  <data name="es_gallery2picture_caption1"><![CDATA[]]></data>
+  <data name="es_gallery2picture_title2"><![CDATA[]]></data>
+  <data name="es_gallery2picture_caption2"><![CDATA[]]></data>
+  <data name="es_gallery2picture_title3"><![CDATA[]]></data>
+  <data name="es_gallery2picture_caption3"><![CDATA[]]></data>
+  <data name="es_gallery2picture_title4"><![CDATA[]]></data>
+  <data name="es_gallery2picture_caption4"><![CDATA[]]></data>
+  <data name="es_gallery2picture_title5"><![CDATA[]]></data>
+  <data name="es_gallery2picture_caption5"><![CDATA[]]></data>
+  <data name="es_gallery2picture_title6"><![CDATA[]]></data>
+  <data name="es_gallery2picture_caption6"><![CDATA[]]></data>
+  <data name="es_gallery3close_text"><![CDATA[Cerrar]]></data>
+  <data name="es_gallery2picture_title0"><![CDATA[]]></data>
+  <data name="es_gallery2picture_caption0"><![CDATA[Vista completa de la maqueta del puente giratorio]]></data>
 
 
   <data name="es_vr_setup_hmd0"><![CDATA[SELECCIONE SU HMD]]></data>
@@ -618,6 +706,9 @@
   <data name="es_project_description"><![CDATA[<font face="verdana, sans-serif">Construido en 1838 fue la morada de la familia Vicente del Junco y Sardiñas, convertida en museo provincial en 1980.</font>]]></data>
 
 
+
+
+
   <data name="es_pano1336_description"><![CDATA[<span style="font-family: verdana, sans-serif;">Construido en 1838 fue la morada de la familiadel acaudalado Vicente del Junco y Sardiñas, dueño de grandes extensiones de tierra e ingenios azucareros. Parte de su familia vivió en el inmueble hasta principios de la década de 1970, fecha en que pasa a los fondos inmobiliarios del estado cubano, y que luego de algunos años de restauración, en 1980 abrió sus puertas como museo provincial. Más de una decena de salas de exposición, dispuestas en orden cronológico narran los principales acontecimientos históricos de la provincia.</span>]]></data>
 
 
@@ -626,6 +717,46 @@
 
 
 
+  <data name="es_spotpoint14067_description"><![CDATA[<div><font face="verdana, sans-serif">Plano del puente proyectado para el río de San Juan de Matanzas y Vista del puente, mirada por la línea 1-2 del plano.</font></div><div><font face="verdana, sans-serif">Fuente: Gobierno de España, Ministerio de educación, cultura y deportes. Archivo General de Indias (AGI).</font></div><div><font face="verdana, sans-serif">Mapas (MP) Santo Domingo, 391 - Matanzas (San Carlos). Puente sobre el rio San Juan 1774.</font></div>]]></data>
+  <data name="es_spotpoint15365_description"><![CDATA[<div><font face="verdana, sans-serif">Plano y perfil de unos pilares del puente proyectado para construirse sobre el rio de San Juan en Matanzas.</font></div><div><font face="verdana, sans-serif">Plano del proyecto de los pilares y estribos del puente del rio San Juan en la ciudad de Matanzas realizado por Joaquín Peramas. Fuente: Gobierno de España, Ministerio de educación, cultura y deportes. Archivo General de Indias (AGI). Mapas (MP) Santo Domingo, 390 - Matanzas (San Carlos). Puente sobre el río San Juan 1774.</font></div>]]></data>
+  <data name="es_spotpoint15366_description"><![CDATA[<div><font face="verdana, sans-serif">Planos y perfiles del pilar P del puente de San Juan de Matanzas.&amp;&amp;Corresponden al n° 3 y 4 del plano general de 20 de enero de 1774. Fuente: Gobierno de España, Ministerio de educación, cultura y deportes. Archivo General de Indias (AGI). Mapas (MP)</font></div><div><font face="verdana, sans-serif">Santo Domingo,390 - Matanzas (San Carlos). Puente sobre el río San Juan 1774-75.</font></div>]]></data>
+  <data name="es_spotpoint15367_description"><![CDATA[<div><font face="verdana, sans-serif">Proyecto para puente sobre el río San Juan, 1801. Fuente: Archivo Nacional de Cuba (ANC).</font></div><div><font face="verdana, sans-serif">Fondo Junta de Fomento, Legajo 125, 6186.</font></div>]]></data>
+  <data name="es_spotpoint15369_description"><![CDATA[<div><font face="verdana, sans-serif">Plano y vista y perfiles del puente proyectado para el río de San Juan de Matanzas.</font></div><div><font face="verdana, sans-serif">Fuente: Gobierno de España, Ministerio de educación, cultura y deportes. Archivo General de Indias (AGI).</font></div><div><font face="verdana, sans-serif">Mapas (MP) Santo Domingo, 392 - Matanzas (San Carlos). Puente sobre el río San Juan 1774.</font></div>]]></data>
+  <data name="es_spotpoint15370_description"><![CDATA[<div><font face="verdana, sans-serif">Plano del puente proyectado sobre el río San Juan en Matanzas. Fuente: Gobierno de España,</font></div><div><font face="verdana, sans-serif">Ministerio de educación, cultura y deportes. Archivo General de Indias (AGl). Mapas (MP) Santo Domingo,</font></div><div><font face="verdana, sans-serif">389 - Matanzas (San Carlos). Puente sobre el río San Juan 1774.</font></div>]]></data>
+  <data name="es_spotpoint15371_description"><![CDATA[<div><font face="verdana, sans-serif">Plano y perfil de puente Giratorio sobre el río San Juan, autor desconocido.</font></div><div><font face="verdana, sans-serif">Fuente: Gobierno de España, Ministerio de educación, cultura y deportes. Archivo General de Indias (AGI).</font></div><div><font face="verdana, sans-serif">Mapas (MP) Santo Domingo, 387 - Matanzas (San Carlos). Puente sobre el río San Juan 1774.</font></div><div><br></div>]]></data>
+  <data name="es_spotpoint15372_description"><![CDATA[<div><font face="verdana, sans-serif">Plano del proyecto de los pilares y estribos del puente del río San Juan en la ciudad de Matanzas realizado por Joaquín Peramas.</font></div><div><font face="verdana, sans-serif">Fuente: Gobierno de Espana, Ministerio de educación, cultura y deportes. Archivo General de Indias (AGI).</font></div><div><font face="verdana, sans-serif">Mapas (MP) Santo Domingo, 384 - Matanzas (San Carlos). Puente sobre el Río San Juan 1774.</font></div>]]></data>
+  <data name="es_spotpoint15373_description"><![CDATA[<div><font face="verdana, sans-serif">Plano del puente proyectado frente a la Carnicería en la ciudad de San Carlos de Matanzas en en año 1828, proyectado por Julio Sagebién.</font></div><div><font face="verdana, sans-serif">Fuente: Archivo Nacional de Cuba (ANC). Fondo Mapas y Planos, Número 2151.</font></div>]]></data>
+  <data name="es_spotpoint15375_description"><![CDATA[<div><font face="verdana, sans-serif">Perfil del puente del río San Juan de Matanzas, cortado por la línea 1-2 del plano, y perfil cortado por la línea 3-4 del plano.</font></div><div><font face="verdana, sans-serif">Fuente: Gobierno de España. Ministerio de Educación, cultura y deportes. Archivo General de Indias (AGI).</font></div><div><font face="verdana, sans-serif">Mapas (MP) Santo Domingo, 385 - Matanzas (San Carlos). Puente sobre el río San Juan 1774.</font></div><div><br></div>]]></data>
+
+
+
+
+
+
+
+
+
+  <data name="es_spotpoint15320_description"><![CDATA[<div><font face="verdana, sans-serif">SEGUNDO PUENTE DE BAILÉN SOBRE EL RÍO SAN JUAN, EN LA PLAZA DE LA VICÍA, PROYECTADO POR DON FRANCISCO DE ALBEAR Y FERNÁNDEZ DE LARA, 1849-1870.</font></div><div><font face="verdana, sans-serif">FUENTE: BIBLIOTECA NACIONAL JOSÉ MARTÍ, CUBA. LITOGRAFÍA DEL GOBIERNO, RICLA 7, RICARDO CABALLERO, 1852. OCTAVO PUENTE EN ESTA UBICACIÓN.</font></div>]]></data>
+  <data name="es_spotpoint15321_description"><![CDATA[<div><font face="verdana, sans-serif">PUENTE DE BAILEN SOBRE EL RÍO SAN JUAN, EN LA PLAZA DE LA VICÍA, PROVECTADO POR JULIO SAGEBIÉN, 1837-1849.</font></div><div><font face="verdana, sans-serif">FUENTE BIBLIOTECA NACIONAL JOSÉ MARTÍ, CUBA, LITOGRAFÍA MATANCERA, JOSÉ LÓPEZ MARTÍNEZ, 1863. SÉPTIMO PUENTE. EN ESTA-UBICACIÓN.</font></div>]]></data>
+  <data name="es_spotpoint15322_description"><![CDATA[<font face="verdana, sans-serif"><div>VISTA DE LA ENTRADA A MATANZAS POR LA PARTE DE PUEBLO NUEVO. PUENTE DEL INGENIERO DON PEDRO DE SILVA, 1816-1837.</div><div>FUENTE: BIBLIOTECA NACIONAL JOSÉ MARTÍ, CUBA. EL PLANTEL, FEDERICO MIAHLE, 1839. SEXTO PUENTE EN ESTA UBICACIÓN.</div></font>]]></data>
+  <data name="es_spotpoint15323_description"><![CDATA[<div><font face="verdana, sans-serif">PUENTE DE LA CONCORDIA SOBRE EL RÍO YUMURÍ, PROYECTADO POR DON PEDRO CELESTINO DEL PANDAL Y SÁNCHEZ, POCO DESPUÉS DE SU INAUGURADO EL 3 DE NOVIEMBRE DE 1878.</font></div><div><font face="verdana, sans-serif">FUENTE: REVISTA LA ILUSTRACIÓN CUBANA, AÑO 1885. BIBLIOTECA NACIONAL JOSÉ MARTÍ, CUBA.</font></div>]]></data>
+  <data name="es_spotpoint15324_description"><![CDATA[<div><font face="verdana, sans-serif">VISTA DE LA BAHÍA CON EL PUENTE DE LA CALLE MAGDALENA, SOBRE EL RÍO YUMURÍ AL FONDO.</font></div><div><font face="verdana, sans-serif">FUENTE: BIBLIOTECA NACIONAL JOSÉ MARTÍ, CUBA. ISLA DE CUBA PINTORESCA, LITOGRAFÍA DE LA REAL SOCIEDAD PATRIÓTICA, FEDERICO MIAHLE, 1839-1842.</font></div>]]></data>
+  <data name="es_spotpoint15325_description"><![CDATA[<div><font face="verdana, sans-serif">PUENTE SOBRE EL RÍO SAN JUAN, EN LA PLAZA DE LA VIGÍA, PRIMERO DE PILARES DE CANTERÍA, 1788-1816. FUENTE: BIBLIOTECA NACIONAL JOSÉ MARTÍ, CUBA.</font></div><div><font face="verdana, sans-serif">PASEO PINTORESCO DE LA ISLA DE CUBA. LITOGRAFIA DEL GOBIERNO, HABANA. LAUREANO CUEVAS, 1841-1842. QUINTO PUENTE EN ESTA UBICACIÓN.</font></div>]]></data>
+  <data name="es_spotpoint15326_description"><![CDATA[<div><font face="verdana, sans-serif">PUENTE DE LA CALLE MAGDALENA SOBRE EL RÍO YUMURÍ, PROYECTADO POR JULIO SAGEBIÉN ENTRE 1824-1825. SE INAUCURA EN 1880 Y PRESTA SERVICIO HASTA 1870.</font></div><div><font face="verdana, sans-serif">FUENTE: BIBLIOTECA NACIONAL JOSÉ MARTÍ, CUBA. PASEO PINTORESCO DE LA ISLA DE CUBA. LITOGRAFÍA DEL GOBIERNO, HABANA. LAUREANO CUEVAS, 1841-1842.</font></div>]]></data>
+  <data name="es_spotpoint15327_description"><![CDATA[<font face="verdana, sans-serif">PUENTE DE LA CARNICERÍA, EN LA CALZADA DE SAN LUIS, 1834-1882, RECONSTRUIDO EN 1883 Y DESTROZADO COMPLETAMENTE EN 1892. FUENTE: FEDERICO MIAHLE. LITOGRAFÍA DE LA REAL SOCIEDAD PATRIÓTICA, 1839-1842.</font>]]></data>
+  <data name="es_spotpoint15328_description"><![CDATA[<div><font face="verdana, sans-serif">LOS CINCO CENTENARIOS EN ACTIVO</font></div><div><font face="verdana, sans-serif">Cinco puentes sobresalen entre los muchos que sirven a la ciudad de Matanzas: el de La Concordia (General Lacret Morlot), el Calixto Garcia, el Giratorio sobre el rio san Juan, el del ferrocarril sobre el Yumuri, el Sanchez Figueras todos con mas de cien años en sus estructuras y sin apenas variaciones sustanciales en su tipologia durante su explotación.</font></div>]]></data>
+
+
+
+  <data name="es_spotpoint15347_description"><![CDATA[<div><font face="verdana, sans-serif">Planta, elevación y perfil de un proyecto de puente de hierro en la desembocadura del río San Juan en la ciudad de Matanzas.</font></div><div><font face="verdana, sans-serif">Matanzas, marzo 12 de 1845, Carlos Benítez. Fuente: Archivo Nacional de Cuba (ANC). Fondo Mapas y Planos, Número 4791.</font></div>]]></data>
+  <data name="es_spotpoint15348_description"><![CDATA[<div><font face="verdana, sans-serif">Planta, elevación y perfil de un proyecto de puente de madera en la desembocadura del río San Juan en la ciudad de Matanzas.</font></div><div><font face="verdana, sans-serif">Matanzas, marzo 12 de 1845, Carlos Benítez. Fuente: Archivo Nacional de Cuba (ANC), Fondo Mapas y Planos, Número 342.</font></div>]]></data>
+  <data name="es_spotpoint15349_description"><![CDATA[<div><font face="verdana, sans-serif">Proyecto para un puente de hierro sobre el río San Juan en la ciudad de Matanzas.</font></div><div><font face="verdana, sans-serif">No fechado, no firmado. Fuente: Archivo Nacional de Cuba (ANC). Fondo Mapas y Planos, sin clasificar.</font></div>]]></data>
+  <data name="es_spotpoint15350_description"><![CDATA[<div><font face="verdana, sans-serif">Otro proyecto del Puente de Canímar, proyectado por julio Sagebién entre 1827 y 1834.</font></div><div><font face="verdana, sans-serif">Fuente: Archivo Nacional de Cuba (ANC). Fondo Mapas y Planos, Número 4786.</font></div>]]></data>
+  <data name="es_spotpoint15351_description"><![CDATA[<div><font face="verdana, sans-serif">Vista del puente de Yumurí tomada desde la bahía. Matanzas. Real Junta de Fomento. Diciembre 30 de 1840.</font></div><div><font face="verdana, sans-serif">Fuente: Archivo Nacional de Cuba (ANC).</font></div>]]></data>
+  <data name="es_spotpoint15352_description"><![CDATA[<div><font face="verdana, sans-serif">Puente de San Juan, elevación, planta y corte realizado por Julio Sagebién, 1826.</font></div><div><font face="verdana, sans-serif">Fuente: Archivo Nacional de Cuba (ANC), Fondo Mapas y Planos, Número 2146.</font></div>]]></data>
+  <data name="es_spotpoint15353_description"><![CDATA[<div><font face="verdana, sans-serif">Planta, perfil y alzado del puente represa en el paso del río Canimar, proyectado por julio Sagebién.</font></div><div><font face="verdana, sans-serif">Fuente: Archivo Nacional de Cuba (ANC). Fondo Mapas y Planos, Número 4796.</font></div>]]></data>
+  <data name="es_spotpoint15354_description"><![CDATA[<div><font face="verdana, sans-serif">Planta y elevación de un puente sobre el río Canímar, proyectado por julio Sagebién entre 1827 y 1834.</font></div><div><font face="verdana, sans-serif">Fuente: Archivo Nacional de Cuba (ANC). Fondo Mapas y Planos, Número 4788.</font></div>]]></data>
+  <data name="es_spotpoint15355_description"><![CDATA[<div><font face="verdana, sans-serif">Planta y perfil del puente proyectado para el río San Juan de Matanzas por joaquín de Peramas. Fuente: Gobierno de España.</font></div><div><font face="verdana, sans-serif">Ministerio de Educación, cultura y deportes. Archivo General de Indias (AGI). Mapas (MP) Santo Domingo, 393.</font></div>]]></data>
 
 
 
@@ -677,18 +808,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+  <data name="es_spotpoint14057_description"><![CDATA[<div><font face="verdana, sans-serif">Francisco Cobo, <i>el pintor de la ciudad</i></font></div><div><font face="verdana, sans-serif"><br></font></div><div><font face="verdana, sans-serif">Francisco Cobo Pérez (Matanzas, 4 de diciembre de 1915- 26 de febrero de 2009)</font></div><div><font face="verdana, sans-serif">Realizó sus primeros estudios de artes plásticas en la Academia Privada de Alberto Tarascó en la ciudad de Matanzas; luego se graduó de Pintura y Escultura en la Academia de San Alejandro, La Habana, en 1947, y de Escenografía y Atrezzista en 1962. Fue integrante del Grupo Valderrama a partir de 1993 y miembro de la Unión Nacional de Escritores y Artistas.</font></div><div><font face="verdana, sans-serif">Tiene en su haber diferentes exposiciones personales y participación en proyectos expositivos colectivos, tanto en Matanzas como en la capital del país.</font></div><div><font face="verdana, sans-serif">En la década del sesenta comienza a incursionar en el género paisaje con gran fuerza. Sus marinas, framboyanes, catedrales, calles, valles, ríos, parques de la ciudad de Matanzas, entre otros, le permiten que ya en la década del ochenta sea reconocido como <i>El pintor de la ciudad</i>.</font></div><div><font face="verdana, sans-serif">En los cuadros que se muestran se puede apreciar su interés por los preceptos de la pintura posimpresionista, caracterizada por el uso de una paleta de colores brillantes y una pincelada resuelta y rápida que no abandona el planteamiento académico, pero que logra captar ese instante fugaz cargado de su visión personal e íntima.</font></div>]]></data>
 
 
 
@@ -859,6 +979,7 @@
 
 
   <data name="es_spotpoint9346_description"><![CDATA[<font face="verdana, sans-serif">HUMIDOR</font>]]></data>
+  <data name="es_spotpoint10859_description"><![CDATA[<font face="verdana, sans-serif">Farol de embarcación</font>]]></data>
 
 
 
@@ -885,30 +1006,56 @@
 
   <data name="es_spotpoint9356_description"><![CDATA[<div><font face="verdana, sans-serif">CASA DE CALDERAS INGENIO LA PONINA.</font></div><div><font face="verdana, sans-serif">GRABADO DE EDUARDO LAPLANTE</font></div><div><br></div>]]></data>
   <data name="es_spotpoint9357_description"><![CDATA[<div><font face="verdana, sans-serif">INGENIO TINGUARO.</font></div><div><font face="verdana, sans-serif">GRABADO DE EDUARDO LAPLANTE</font></div>]]></data>
+  <data name="es_spotpoint10806_description"><![CDATA[<div><font face="verdana, sans-serif">CASA DE CALDERAS FLOR DE CUBA.</font></div><div><font face="verdana, sans-serif">GRABADO DE EDUARDO LAPLANTE</font></div>]]></data>
+  <data name="es_spotpoint10815_description"><![CDATA[<div><font face="verdana, sans-serif">Casa de calderas ingenio San Martín.</font></div><div><font face="verdana, sans-serif">Grabado de Eduardo Laplante</font></div>]]></data>
+  <data name="es_spotpoint10816_description"><![CDATA[<font face="verdana, sans-serif">Horma de pulgar azúcar</font>]]></data>
+  <data name="es_spotpoint10817_description"><![CDATA[<font face="verdana, sans-serif">Fragmento de arado criollo</font>]]></data>
+  <data name="es_spotpoint10818_description"><![CDATA[<font face="verdana, sans-serif">Espolón de arado, vertedera y aditamento</font>]]></data>
+  <data name="es_spotpoint10819_description"><![CDATA[<font face="verdana, sans-serif">Llave octogonal</font>]]></data>
+  <data name="es_spotpoint10820_description"><![CDATA[<font face="verdana, sans-serif">Clavos de ingenios</font>]]></data>
+  <data name="es_spotpoint10821_description"><![CDATA[<font face="verdana, sans-serif">Cadena para estera de caña</font>]]></data>
+  <data name="es_spotpoint10862_description"><![CDATA[<font face="verdana, sans-serif">Aceiteras</font>]]></data>
+  <data name="es_spotpoint10863_description"><![CDATA[<font face="verdana, sans-serif">Piedras rituales</font>]]></data>
+  <data name="es_spotpoint10864_description"><![CDATA[<font face="verdana, sans-serif">Vasijas</font>]]></data>
+  <data name="es_spotpoint10865_description"><![CDATA[<font face="verdana, sans-serif">Talla en hueso de caballo</font>]]></data>
 
 
 
 
 
 
+  <data name="es_spotpoint10822_description"><![CDATA[<font face="verdana, sans-serif">Llave octogonal</font>]]></data>
+
+
+
+  <data name="es_spotpoint10823_description"><![CDATA[<font face="verdana, sans-serif">Ollas trébede</font>]]></data>
+  <data name="es_spotpoint10836_description"><![CDATA[<font face="verdana, sans-serif">Esclavos en el cañaveral</font>]]></data>
+  <data name="es_spotpoint10837_description"><![CDATA[<font face="verdana, sans-serif">Galones de esclavos</font>]]></data>
+  <data name="es_spotpoint10838_description"><![CDATA[<font face="verdana, sans-serif">Tortura de esclavos</font>]]></data>
+  <data name="es_spotpoint10839_description"><![CDATA[<font face="verdana, sans-serif">Pistolete de hierro para cantería</font>]]></data>
+  <data name="es_spotpoint10840_description"><![CDATA[<font face="verdana, sans-serif">Aditamento de sostén</font>]]></data>
+  <data name="es_spotpoint10841_description"><![CDATA[<font face="verdana, sans-serif">Parrilla</font>]]></data>
+  <data name="es_spotpoint10842_description"><![CDATA[<font face="verdana, sans-serif">Herraje de puerta</font>]]></data>
 
 
 
 
 
 
+  <data name="es_spotpoint10843_description"><![CDATA[<font face="verdana, sans-serif">Restos óseos de un cimarrón</font>]]></data>
+  <data name="es_spotpoint10844_description"><![CDATA[<div><font face="verdana, sans-serif">Cimarrón.</font></div><div><font face="verdana, sans-serif">Óleo de Víctor Patricio Landaluze</font></div>]]></data>
+  <data name="es_spotpoint10860_description"><![CDATA[<div><font face="verdana, sans-serif">Cepo de pies</font></div><div><font face="verdana, sans-serif">Instrumento de tortura más utilizado; donde eran castigados los esclavos y cimarrones capturados. Perteneció al antiguo Ingenio Socorro</font></div>]]></data>
+  <data name="es_spotpoint10861_description"><![CDATA[<font face="verdana, sans-serif">Grilletes</font>]]></data>
 
 
 
 
 
 
-
-
-
-
-
-
+  <data name="es_spotpoint10845_description"><![CDATA[<div><font face="verdana, sans-serif">Ferrocarril de Sabanilla.</font></div><div><font face="verdana, sans-serif">Al fondo ingenio Acana.</font></div><div><font face="verdana, sans-serif">Grabado de Eduardo Laplante.</font></div>]]></data>
+  <data name="es_spotpoint10856_description"><![CDATA[<font face="verdana, sans-serif">Placa de locomotora del ingenio Conchita</font>]]></data>
+  <data name="es_spotpoint10857_description"><![CDATA[<font face="verdana, sans-serif">Fichas o tókem azucarero</font>]]></data>
+  <data name="es_spotpoint10858_description"><![CDATA[<font face="verdana, sans-serif">Acciones del banco San Carlos</font>]]></data>
 
 
 

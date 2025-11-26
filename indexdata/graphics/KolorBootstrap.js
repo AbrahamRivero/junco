@@ -259,9 +259,27 @@ function eventKrpanoLoaded (isWebVr) {
 	
 	}else{
 	
-	addKolorBox('gallery3');
+	addKolorArea('description3');
+addKolorBox('gallery18');
+addKolorBox('gallery17');
+addKolorBox('gallery16');
+addKolorBox('gallery15');
+addKolorBox('gallery7');
+addKolorBox('gallery8');
+addKolorBox('gallery9');
+addKolorBox('gallery10');
+addKolorBox('gallery11');
+addKolorBox('gallery12');
+addKolorBox('gallery13');
+addKolorBox('gallery14');
+addKolorBox('gallery6');
+addKolorBox('gallery5');
+addKolorBox('gallery3');
 addKolorBox('gallery2');
+addKolorBox('gallery4');
 addKolorArea('description');
+addKolorArea('description2');
+addKolorArea('description1');
 addKolorBox('websiteViewer');
 addKolorBox('gallery');
 addKolorBox('gallery1');
@@ -280,9 +298,27 @@ function eventUnloadPlugins () {
 	deleteKolorBox('gallery1');
 deleteKolorBox('gallery');
 deleteKolorBox('websiteViewer');
+deleteKolorArea('description1');
+deleteKolorArea('description2');
 deleteKolorArea('description');
+deleteKolorBox('gallery4');
 deleteKolorBox('gallery2');
 deleteKolorBox('gallery3');
+deleteKolorBox('gallery5');
+deleteKolorBox('gallery6');
+deleteKolorBox('gallery14');
+deleteKolorBox('gallery13');
+deleteKolorBox('gallery12');
+deleteKolorBox('gallery11');
+deleteKolorBox('gallery10');
+deleteKolorBox('gallery9');
+deleteKolorBox('gallery8');
+deleteKolorBox('gallery7');
+deleteKolorBox('gallery15');
+deleteKolorBox('gallery16');
+deleteKolorBox('gallery17');
+deleteKolorBox('gallery18');
+deleteKolorArea('description3');
 
 }
 

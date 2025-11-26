@@ -3332,6 +3332,1660 @@
 
 
 
+    
+  <!-- Spot Style - Punzon -->
+
+
+  <style name="IconPunzon"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint108.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconPunzon"
+         onout="onoutIconPunzon"
+
+
+         />
+  <action name="onhoverIconPunzon">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPunzon">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 1 -->
+
+
+  <style name="Icon1"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint109.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+
+         height="30"
+         width="30"
+         />
+
+
+
+    
+  <!-- Spot Style - 2 -->
+
+
+  <style name="Icon2"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint110.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+
+         height="30"
+         width="30"
+         />
+
+
+
+    
+  <!-- Spot Style - 3 -->
+
+
+  <style name="Icon3"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint111.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+
+         height="30"
+         width="30"
+         />
+
+
+
+    
+  <!-- Spot Style - 4 -->
+
+
+  <style name="Icon4"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint112.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+
+         height="30"
+         width="30"
+         />
+
+
+
+    
+  <!-- Spot Style - 5 -->
+
+
+  <style name="Icon5"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint113.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+
+         height="30"
+         width="30"
+         />
+
+
+
+    
+  <!-- Spot Style - 6 -->
+
+
+  <style name="Icon6"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint114.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+
+         height="30"
+         width="30"
+         />
+
+
+
+    
+  <!-- Spot Style - 7 -->
+
+
+  <style name="Icon7"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint115.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+
+         height="30"
+         width="30"
+         />
+
+
+
+    
+  <!-- Spot Style - 8 -->
+
+
+  <style name="Icon8"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint116.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+
+         height="30"
+         width="30"
+         />
+
+
+
+    
+  <!-- Spot Style - 9 -->
+
+
+  <style name="Icon9"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint117.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+
+         height="30"
+         width="30"
+         />
+
+
+
+    
+  <!-- Spot Style - 10 -->
+
+
+  <style name="Icon10"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint118.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+
+         height="30"
+         width="30"
+         />
+
+
+
+    
+  <!-- Spot Style - 11 -->
+
+
+  <style name="Icon11"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint119.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+
+         height="30"
+         width="30"
+         />
+
+
+
+    
+  <!-- Spot Style - Bandera -->
+
+
+  <style name="IconBandera"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint120.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconBandera"
+         onout="onoutIconBandera"
+
+
+         />
+  <action name="onhoverIconBandera">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconBandera">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Complementos -->
+
+
+  <style name="IconComplementos"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint121.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconComplementos"
+         onout="onoutIconComplementos"
+
+
+         />
+  <action name="onhoverIconComplementos">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconComplementos">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Instrumentos -->
+
+
+  <style name="IconInstrumentos"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint122.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconInstrumentos"
+         onout="onoutIconInstrumentos"
+
+
+         />
+  <action name="onhoverIconInstrumentos">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconInstrumentos">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Armas -->
+
+
+  <style name="IconArmas"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint123.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconArmas"
+         onout="onoutIconArmas"
+
+
+         />
+  <action name="onhoverIconArmas">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconArmas">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Frazadas -->
+
+
+  <style name="IconFrazadas"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint124.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconFrazadas"
+         onout="onoutIconFrazadas"
+
+
+         />
+  <action name="onhoverIconFrazadas">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconFrazadas">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Espuelas -->
+
+
+  <style name="IconEspuelas"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint125.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconEspuelas"
+         onout="onoutIconEspuelas"
+
+
+         />
+  <action name="onhoverIconEspuelas">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconEspuelas">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Indumentaria -->
+
+
+  <style name="IconIndumentaria"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint126.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconIndumentaria"
+         onout="onoutIconIndumentaria"
+
+
+         />
+  <action name="onhoverIconIndumentaria">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconIndumentaria">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Objetos -->
+
+
+  <style name="IconObjetos"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint127.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconObjetos"
+         onout="onoutIconObjetos"
+
+
+         />
+  <action name="onhoverIconObjetos">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconObjetos">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Espadas -->
+
+
+  <style name="IconEspadas"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint128.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconEspadas"
+         onout="onoutIconEspadas"
+
+
+         />
+  <action name="onhoverIconEspadas">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconEspadas">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Machetes -->
+
+
+  <style name="IconMachetes"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint129.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconMachetes"
+         onout="onoutIconMachetes"
+
+
+         />
+  <action name="onhoverIconMachetes">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconMachetes">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - ABlancas -->
+
+
+  <style name="IconABlancas"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint130.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconABlancas"
+         onout="onoutIconABlancas"
+
+
+         />
+  <action name="onhoverIconABlancas">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconABlancas">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Pistola -->
+
+
+  <style name="IconPistola"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint131.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconPistola"
+         onout="onoutIconPistola"
+
+
+         />
+  <action name="onhoverIconPistola">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPistola">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Polvora -->
+
+
+  <style name="IconPolvora"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint132.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconPolvora"
+         onout="onoutIconPolvora"
+
+
+         />
+  <action name="onhoverIconPolvora">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPolvora">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Trabuco -->
+
+
+  <style name="IconTrabuco"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint133.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconTrabuco"
+         onout="onoutIconTrabuco"
+
+
+         />
+  <action name="onhoverIconTrabuco">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconTrabuco">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Tercerola -->
+
+
+  <style name="IconTercerola"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint134.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconTercerola"
+         onout="onoutIconTercerola"
+
+
+         />
+  <action name="onhoverIconTercerola">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconTercerola">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Fusil -->
+
+
+  <style name="IconFusil"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint135.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconFusil"
+         onout="onoutIconFusil"
+
+
+         />
+  <action name="onhoverIconFusil">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconFusil">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Lanzacabos -->
+
+
+  <style name="IconLanzacabos"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint136.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconLanzacabos"
+         onout="onoutIconLanzacabos"
+
+
+         />
+  <action name="onhoverIconLanzacabos">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconLanzacabos">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Canon -->
+
+
+  <style name="IconCanon"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint137.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconCanon"
+         onout="onoutIconCanon"
+
+
+         />
+  <action name="onhoverIconCanon">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconCanon">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Balas -->
+
+
+  <style name="IconBalas"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint138.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconBalas"
+         onout="onoutIconBalas"
+
+
+         />
+  <action name="onhoverIconBalas">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconBalas">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Cambio abajo -->
+
+
+  <style name="IconCambioabajo"
+         url="%FIRSTXML%/spots/hotspot_direction_sequence_user_defaultpoint139.png"
+         visible="false"
+         frame="0"
+         lastframe="18"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         rotate="90"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconCambioabajo"
+         onout="onoutIconCambioabajo"
+
+
+         />
+  <action name="onhoverIconCambioabajo">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconCambioabajo">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Cambio arriba -->
+
+
+  <style name="IconCambioarriba"
+         url="%FIRSTXML%/spots/hotspot_direction_sequence_user_defaultpoint140.png"
+         visible="false"
+         frame="0"
+         lastframe="18"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         rotate="270"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconCambioarriba"
+         onout="onoutIconCambioarriba"
+
+
+         />
+  <action name="onhoverIconCambioarriba">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconCambioarriba">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Cambio izquierda -->
+
+
+  <style name="IconCambioizquierda"
+         url="%FIRSTXML%/spots/hotspot_direction_sequence_user_defaultpoint141.png"
+         visible="false"
+         frame="0"
+         lastframe="18"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         rotate="180"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconCambioizquierda"
+         onout="onoutIconCambioizquierda"
+
+
+         />
+  <action name="onhoverIconCambioizquierda">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconCambioizquierda">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Cambio derecha -->
+
+
+  <style name="IconCambioderecha"
+         url="%FIRSTXML%/spots/hotspot_direction_sequence_user_defaultpoint142.png"
+         visible="false"
+         frame="0"
+         lastframe="18"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconCambioderecha"
+         onout="onoutIconCambioderecha"
+
+
+         />
+  <action name="onhoverIconCambioderecha">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconCambioderecha">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Momia -->
+
+
+  <style name="IconMomia"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint143.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconMomia"
+         onout="onoutIconMomia"
+
+
+         />
+  <action name="onhoverIconMomia">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconMomia">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Cuerpo 2 -->
+
+
+  <style name="IconCuerpo2"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint144.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconCuerpo2"
+         onout="onoutIconCuerpo2"
+
+
+         />
+  <action name="onhoverIconCuerpo2">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconCuerpo2">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Mesa -->
+
+
+  <style name="IconMesa"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint145.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconMesa"
+         onout="onoutIconMesa"
+
+
+         />
+  <action name="onhoverIconMesa">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconMesa">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Patio 1 -->
+
+
+  <style name="IconPatio1"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint146.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconPatio1"
+         onout="onoutIconPatio1"
+
+
+         />
+  <action name="onhoverIconPatio1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPatio1">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Patio 2 -->
+
+
+  <style name="IconPatio2"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint147.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconPatio2"
+         onout="onoutIconPatio2"
+
+
+         />
+  <action name="onhoverIconPatio2">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPatio2">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Patio 3 -->
+
+
+  <style name="IconPatio3"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint148.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconPatio3"
+         onout="onoutIconPatio3"
+
+
+         />
+  <action name="onhoverIconPatio3">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPatio3">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Patio 4 -->
+
+
+  <style name="IconPatio4"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint149.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconPatio4"
+         onout="onoutIconPatio4"
+
+
+         />
+  <action name="onhoverIconPatio4">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPatio4">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Patio 5 -->
+
+
+  <style name="IconPatio5"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint150.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconPatio5"
+         onout="onoutIconPatio5"
+
+
+         />
+  <action name="onhoverIconPatio5">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPatio5">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Patio 6 -->
+
+
+  <style name="IconPatio6"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint151.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconPatio6"
+         onout="onoutIconPatio6"
+
+
+         />
+  <action name="onhoverIconPatio6">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPatio6">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Patio 7 -->
+
+
+  <style name="IconPatio7"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint152.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconPatio7"
+         onout="onoutIconPatio7"
+
+
+         />
+  <action name="onhoverIconPatio7">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPatio7">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Patio 8 -->
+
+
+  <style name="IconPatio8"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint153.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconPatio8"
+         onout="onoutIconPatio8"
+
+
+         />
+  <action name="onhoverIconPatio8">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPatio8">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Cuerpo 1 -->
+
+
+  <style name="IconCuerpo1"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint154.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconCuerpo1"
+         onout="onoutIconCuerpo1"
+
+
+         />
+  <action name="onhoverIconCuerpo1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconCuerpo1">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Osamenta -->
+
+
+  <style name="IconOsamenta"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint155.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconOsamenta"
+         onout="onoutIconOsamenta"
+
+
+         />
+  <action name="onhoverIconOsamenta">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconOsamenta">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Pulgas -->
+
+
+  <style name="IconPulgas"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint156.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconPulgas"
+         onout="onoutIconPulgas"
+
+
+         />
+  <action name="onhoverIconPulgas">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPulgas">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Obelisco -->
+
+
+  <style name="IconObelisco"
+         url="%FIRSTXML%/spots/hotspot_image_big_sequence_user_defaultpoint157.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="56"
+         frameheight="56"
+         stopspotsequence="false"
+         crop="0|0|56|56"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconObelisco"
+         onout="onoutIconObelisco"
+
+
+         />
+  <action name="onhoverIconObelisco">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconObelisco">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Flota de Pieter -->
+
+
+  <style name="IconFlotadePieter"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint158.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconFlotadePieter"
+         onout="onoutIconFlotadePieter"
+
+
+         />
+  <action name="onhoverIconFlotadePieter">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconFlotadePieter">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Pieter Heyn -->
+
+
+  <style name="IconPieterHeyn"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint159.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconPieterHeyn"
+         onout="onoutIconPieterHeyn"
+
+
+         />
+  <action name="onhoverIconPieterHeyn">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconPieterHeyn">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Movil Fundacional -->
+
+
+  <style name="IconMovilFundacional"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint160.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconMovilFundacional"
+         onout="onoutIconMovilFundacional"
+
+
+         />
+  <action name="onhoverIconMovilFundacional">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconMovilFundacional">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Asombro -->
+
+
+  <style name="IconAsombro"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint161.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconAsombro"
+         onout="onoutIconAsombro"
+
+
+         />
+  <action name="onhoverIconAsombro">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconAsombro">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - Cambio 210 -->
+
+
+  <style name="IconCambio210"
+         url="%FIRSTXML%/spots/hotspot_direction_sequence_user_defaultpoint162.png"
+         visible="false"
+         frame="0"
+         lastframe="18"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         rotate="210"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconCambio210"
+         onout="onoutIconCambio210"
+
+
+         />
+  <action name="onhoverIconCambio210">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconCambio210">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
   <!-- Sounds Management -->
   <plugin name="soundinterface"
           preload="true"
@@ -3810,11 +5464,6 @@
     );
   </action>
 
-  <!-- Tour Information -->
-  <action name="hideTourInfo">set(tour_displayinfo, false);events.dispatch(onhidetourinfo);</action>
-  <action name="showTourInfo">set(tour_displayinfo, true); events.dispatch(onshowtourinfo);</action>
-
-
 <action name="setViewArchitectural">
 	if(normalViewActivated,stopSetViewTweens(););
 	if(current_view_isflat === true,
@@ -3834,5 +5483,10 @@
 	);
 	tween(view.fov, get(panoview.fov), distance(50, 0.45));
 </action>
+
+  <!-- Tour Information -->
+  <action name="hideTourInfo">set(tour_displayinfo, false);events.dispatch(onhidetourinfo);</action>
+  <action name="showTourInfo">set(tour_displayinfo, true); events.dispatch(onshowtourinfo);</action>
+
 
 </krpano>

@@ -5,7 +5,7 @@
 <!--         Messages         -->
 <!-- ************************ -->
 
-  <data name="es_project_title"><![CDATA[Museo Provincial Palacio de Junco]]></data>
+  <data name="es_project_title"><![CDATA[Museo Palacio de Junco]]></data>
   <data name="es_project_author_name"><![CDATA[Camilo Hdez.Perez]]></data>
 
 
@@ -35,15 +35,16 @@
   <data name="es_spotpoint15372_tooltip"><![CDATA[INFO]]></data>
   <data name="es_spotpoint15373_tooltip"><![CDATA[INFO]]></data>
   <data name="es_spotpoint15375_tooltip"><![CDATA[INFO]]></data>
-  <data name="es_spotpoint16692_tooltip"><![CDATA[Maqueta del puente giratorio]]></data>
+  <data name="es_spotpoint16692_tooltip"><![CDATA[<center>Maqueta del<br>puente giratorio</center>]]></data>
 
 
   <data name="es_pano11_title"><![CDATA[IMG_20241112_105949_00_merged_sphere]]></data>
-  <data name="es_spotpoint16691_tooltip"><![CDATA[Maqueta del puente giratorio]]></data>
+  <data name="es_spotpoint16691_tooltip"><![CDATA[<center>Maqueta del<br>puente giratorio</center>]]></data>
 
 
   <data name="es_pano13_title"><![CDATA[IMG_20241112_100121_00_merged_sphere]]></data>
-  <data name="es_spotpoint16690_tooltip"><![CDATA[Maqueta del puente giratorio]]></data>
+  <data name="es_spotpoint16690_tooltip"><![CDATA[<center>Maqueta del<br>puente giratorio</center>]]></data>
+  <data name="es_spotpoint66873_tooltip"><![CDATA[INFO]]></data>
 
 
   <data name="es_pano14_title"><![CDATA[IMG_20241112_095837_00_merged_sphere]]></data>
@@ -56,7 +57,7 @@
   <data name="es_spotpoint15326_tooltip"><![CDATA[INFO]]></data>
   <data name="es_spotpoint15327_tooltip"><![CDATA[INFO]]></data>
   <data name="es_spotpoint15328_tooltip"><![CDATA[INFO]]></data>
-  <data name="es_spotpoint16694_tooltip"><![CDATA[Maqueta del puente giratorio]]></data>
+  <data name="es_spotpoint16694_tooltip"><![CDATA[<center>Maqueta del<br>puente giratorio</center>]]></data>
 
 
   <data name="es_pano15_title"><![CDATA[IMG_20241112_100015_00_merged_sphere]]></data>
@@ -69,11 +70,11 @@
   <data name="es_spotpoint15353_tooltip"><![CDATA[INFO]]></data>
   <data name="es_spotpoint15354_tooltip"><![CDATA[INFO]]></data>
   <data name="es_spotpoint15355_tooltip"><![CDATA[INFO]]></data>
-  <data name="es_spotpoint16693_tooltip"><![CDATA[Maqueta del puente giratorio]]></data>
+  <data name="es_spotpoint16693_tooltip"><![CDATA[<center>Maqueta del<br>puente giratorio</center>]]></data>
 
 
   <data name="es_pano45_title"><![CDATA[IMG_20241112_105908_00_merged_sphere]]></data>
-  <data name="es_spotpoint16689_tooltip"><![CDATA[Maqueta del puente giratorio]]></data>
+  <data name="es_spotpoint16689_tooltip"><![CDATA[<center>Maqueta del<br>puente giratorio</center>]]></data>
 
 
   <data name="es_pano84_title"><![CDATA[IMG_20241112_094152_00_merged_sphere]]></data>
@@ -520,9 +521,6 @@ Restos óseos<br>de un cimarrón
 
 
   <data name="es_pano8414_title"><![CDATA[IMG_20241119_104453_00_merged_sphere]]></data>
-  <data name="es_spotpoint59655_tooltip"><![CDATA[Ver objeto 3D]]></data>
-  <data name="es_spotpoint59655websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[./indexdata/extras/adorno-viewer.html]]></data>
-  <data name="es_spotpoint59655websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[Ver en 3D]]></data>
 
 
   <data name="es_pano8874_title"><![CDATA[IMG_20250129_143330_00_merged_sphere]]></data>
@@ -578,9 +576,7 @@ Restos óseos<br>de un cimarrón
   <data name="es_spotpoint24642_tooltip"><![CDATA[6]]></data>
   <data name="es_spotpoint24643_tooltip"><![CDATA[7]]></data>
   <data name="es_spotpoint24645_tooltip"><![CDATA[INFO]]></data>
-  <data name="es_spotpoint31839_tooltip"><![CDATA[<center>
-Mesa donde se firmó el<br>traspaso de España a EUA
-</center>]]></data>
+  <data name="es_spotpoint31839_tooltip"><![CDATA[<center>Mesa donde se<br>firmó el traspaso</center>]]></data>
 
 
   <data name="es_pano21524_title"><![CDATA[IMG_20250521_134152_00_merged_sphere]]></data>
@@ -604,9 +600,7 @@ Mesa donde se firmó el<br>traspaso de España a EUA
 
 
   <data name="es_pano22938_title"><![CDATA[IMG_20250521_132109_00_merged_sphere]]></data>
-  <data name="es_spotpoint39672_tooltip"><![CDATA[<center>
-Mesa donde se firmó el<br>traspaso de España a EUA
-</center>]]></data>
+  <data name="es_spotpoint39672_tooltip"><![CDATA[<center>Mesa donde se<br>firmó el traspaso</center>]]></data>
 
 
   <data name="es_pano22939_title"><![CDATA[IMG_20250521_132321_00_merged_sphere]]></data>
@@ -743,96 +737,96 @@ Mesa donde se firmó el<br>traspaso de España a EUA
   <data name="es_pano65639_title"><![CDATA[IMG_20250707_095740_00_merged_sphere]]></data>
 
 
-	<data name="es_spotmap66775_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66776_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66777_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66778_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66779_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66780_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66781_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66782_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66783_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66784_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66785_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66786_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66787_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66788_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66789_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66790_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66791_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66792_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66793_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66794_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66795_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66796_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66797_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66798_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66799_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66800_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66801_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66802_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66803_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66804_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66805_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66806_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66807_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66808_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66809_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66810_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66811_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66812_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66813_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66814_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66815_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66816_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66817_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66818_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66819_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66820_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66821_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66822_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66823_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66824_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66825_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66826_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66827_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66828_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66829_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66830_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66831_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66832_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66833_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66834_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66835_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66836_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66837_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66838_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66839_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66840_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66841_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66842_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66843_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66844_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66845_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66846_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66847_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66848_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66849_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66850_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66851_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66852_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66853_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66854_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66855_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66856_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66857_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66858_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66859_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66860_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66861_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66862_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66863_tooltip"><![CDATA[]]></data>
-	<data name="es_spotmap66864_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71770_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71771_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71772_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71773_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71774_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71775_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71776_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71777_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71778_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71779_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71780_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71781_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71782_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71783_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71784_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71785_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71786_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71787_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71788_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71789_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71790_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71791_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71792_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71793_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71794_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71795_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71796_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71797_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71798_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71799_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71800_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71801_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71802_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71803_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71804_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71805_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71806_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71807_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71808_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71809_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71810_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71811_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71812_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71813_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71814_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71815_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71816_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71817_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71818_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71819_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71820_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71821_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71822_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71823_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71824_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71825_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71826_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71827_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71828_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71829_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71830_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71831_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71832_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71833_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71834_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71835_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71836_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71837_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71838_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71839_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71840_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71841_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71842_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71843_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71844_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71845_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71846_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71847_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71848_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71849_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71850_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71851_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71852_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71853_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71854_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71855_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71856_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71857_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71858_tooltip"><![CDATA[]]></data>
+	<data name="es_spotmap71859_tooltip"><![CDATA[]]></data>
 
 
 
@@ -868,6 +862,8 @@ Mesa donde se firmó el<br>traspaso de España a EUA
   <data name="es_gallerypicture_title4"><![CDATA[Reloj de pared (USA)]]></data>
   <data name="es_gallerypicture_caption4"><![CDATA[]]></data>
   <data name="es_websiteViewerclose_text"><![CDATA[Cerrar]]></data>
+  <data name="es_description3description_title"><![CDATA[INFO]]></data>
+  <data name="es_description3display_close_text"><![CDATA[Cerrar]]></data>
   <data name="es_description1description_title"><![CDATA[INFO]]></data>
   <data name="es_description1display_close_text"><![CDATA[Cerrar]]></data>
   <data name="es_description2description_title"><![CDATA[INFO]]></data>
@@ -1020,8 +1016,6 @@ Mesa donde se firmó el<br>traspaso de España a EUA
   <data name="es_gallery18picture_caption1"><![CDATA[]]></data>
   <data name="es_gallery18picture_title2"><![CDATA[]]></data>
   <data name="es_gallery18picture_caption2"><![CDATA[]]></data>
-  <data name="es_description3description_title"><![CDATA[INFO]]></data>
-  <data name="es_description3display_close_text"><![CDATA[Cerrar]]></data>
 
 
   <data name="es_vr_setup_hmd0"><![CDATA[SELECCIONE SU HMD]]></data>
@@ -1086,6 +1080,7 @@ Mesa donde se firmó el<br>traspaso de España a EUA
 
 
 
+  <data name="es_spotpoint66873_description"><![CDATA[<div><font face="verdana, sans-serif">Los primeros puentes en la historia de la humanidad se realizaron atando cuerdas y cables de lianas o bejucos en valles estrechos, o colocando troncos para cruzar arroyos o ríos, así surgieron los puentes en su forma más elemental, con un tramo y entre dos apoyos.</font></div><div><font face="verdana, sans-serif">Se construían balsas con andarivel hasta llegar llegar después a los bongos, puentes flotadores y pontones. Con el paso del tiempo para cruzar un río se colocaban muros o pilastras de piedras y entre estos los troncos. Fue este el origen de los puentes de tramos múltiples.</font></div>]]></data>
 
 
 
@@ -1271,6 +1266,7 @@ Mesa donde se firmó el<br>traspaso de España a EUA
   <data name="es_spotpoint6630_description"><![CDATA[<font face="verdana, sans-serif">Recuerdo de la construcción del edificio de Monserrate</font>]]></data>
   <data name="es_spotpoint6631_description"><![CDATA[<font face="verdana, sans-serif">Copia del plano de la Feria Exposición de 1872</font>]]></data>
   <data name="es_spotpoint6632_description"><![CDATA[<font face="verdana, sans-serif">Vista general de la Exposición de 1881</font>]]></data>
+  <data name="es_spotpoint6633_description"><![CDATA[<font face="verdana, sans-serif">Principales acontecimientos ocurridos en los terrenos del Palmar de Junco:</font><div><ul><li><font face="verdana, sans-serif">1865, 5 de septiembre. Juego de pelota entre el equipo del comercio y la tripulación de un barco norteamericano</font></li><li><font face="verdana, sans-serif">1872, 1-3 de febrero. Feria Exposición organizada por los canarios residentes &nbsp;en la juridiscción</font></li><li><font face="verdana, sans-serif">1874, 27 de diciembre. Se efectúa el Primer Juego Oficial de Pelota entre los equipos Base Ball Club de la Habana y Matanzas</font></li><li><font face="verdana, sans-serif">1881, 3 de abril. Exposición Internacional, alentada por el Ateneo de Matanzas, con la participación de 12 países</font></li><li><font face="verdana, sans-serif">1898_1899. Utilizados los terrenos para aislar a los enfermos durante la Reconcentración de Wevler</font></li></ul></div>]]></data>
   <data name="es_spotpoint6634_description"><![CDATA[<font face="verdana, sans-serif">Equipo Matanzas, ganador del primer gallardete para la provincia yumurina en la temporada 1892-93</font>]]></data>
   <data name="es_spotpoint6635_description"><![CDATA[<div><font face="verdana, sans-serif">Barreta utilizada por el asiático Justo Wong mientras trabajaba en las canteras de Don&nbsp;</font><span style="font-family: verdana, sans-serif;">Manuel Santos Parga</span></div>]]></data>
 
@@ -1324,12 +1320,12 @@ Mesa donde se firmó el<br>traspaso de España a EUA
 
 
 
-  <data name="es_spotpoint9347_description"><![CDATA[<p><span style="font-size: 13.5pt; line-height: 107%; font-family: Verdana, sans-serif;">Humidor</span><o:p></o:p></p>]]></data>
-  <data name="es_spotpoint9348_description"><![CDATA[<p><span style="font-size: 13.5pt; line-height: 107%; font-family: Verdana, sans-serif;">Campana de cafetal</span><o:p></o:p></p>]]></data>
-  <data name="es_spotpoint9349_description"><![CDATA[<p><span style="font-size: 13.5pt; line-height: 107%; font-family: Verdana, sans-serif;">Molinillo de café</span><o:p></o:p></p>]]></data>
-  <data name="es_spotpoint9350_description"><![CDATA[<font face="Verdana, sans-serif"><span style="font-size: 18px; line-height: 19.26px;">Vega de tabaco</span></font>]]></data>
-  <data name="es_spotpoint9351_description"><![CDATA[<p><span style="font-size: 13.5pt; line-height: 107%; font-family: Verdana, sans-serif;">Tijera de despuntar tabaco</span><o:p></o:p></p>]]></data>
-  <data name="es_spotpoint9352_description"><![CDATA[<p><span style="font-size: 13.5pt; line-height: 107%; font-family: Verdana, sans-serif;">Anillas y bofetones</span><o:p></o:p></p>]]></data>
+  <data name="es_spotpoint9347_description"><![CDATA[<p><span style="line-height: 107%; font-family: Verdana, sans-serif;"><font size="2">Humidor</font></span><o:p></o:p></p>]]></data>
+  <data name="es_spotpoint9348_description"><![CDATA[<p><span style="line-height: 107%; font-family: Verdana, sans-serif;"><font size="2">Campana de cafetal</font></span><o:p></o:p></p>]]></data>
+  <data name="es_spotpoint9349_description"><![CDATA[<p><span style="line-height: 107%; font-family: Verdana, sans-serif;"><font size="2">Molinillo de café</font></span><o:p></o:p></p>]]></data>
+  <data name="es_spotpoint9350_description"><![CDATA[<font face="Verdana, sans-serif" size="2"><span style="line-height: 19.26px;">Vega de tabaco</span></font>]]></data>
+  <data name="es_spotpoint9351_description"><![CDATA[<p><span style="line-height: 107%; font-family: Verdana, sans-serif;"><font size="2">Tijera de despuntar tabaco</font></span><o:p></o:p></p>]]></data>
+  <data name="es_spotpoint9352_description"><![CDATA[<font face="Verdana, sans-serif" size="2"><span style="line-height: 19.26px;">Anillas y bofetones</span></font>]]></data>
 
 
 
@@ -1341,7 +1337,7 @@ Mesa donde se firmó el<br>traspaso de España a EUA
 
   <data name="es_spotpoint9353_description"><![CDATA[<font face="verdana, sans-serif">Talla de indios en madera.</font>]]></data>
   <data name="es_spotpoint9354_description"><![CDATA[<font face="verdana, sans-serif">Talla de indios en madera.</font>]]></data>
-  <data name="es_spotpoint9355_description"><![CDATA[<p><span style="font-size: 13.5pt; line-height: 107%; font-family: Verdana, sans-serif;">Pilón y majador</span><o:p></o:p></p>]]></data>
+  <data name="es_spotpoint9355_description"><![CDATA[<p><span style="line-height: 107%; font-family: Verdana, sans-serif;"><font size="2">Pilón y majador</font></span><o:p></o:p></p>]]></data>
 
 
 

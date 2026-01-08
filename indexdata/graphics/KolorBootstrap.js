@@ -259,8 +259,7 @@ function eventKrpanoLoaded (isWebVr) {
 	
 	}else{
 	
-	addKolorArea('description3');
-addKolorBox('gallery18');
+	addKolorBox('gallery18');
 addKolorBox('gallery17');
 addKolorBox('gallery16');
 addKolorBox('gallery15');
@@ -280,6 +279,7 @@ addKolorBox('gallery4');
 addKolorArea('description');
 addKolorArea('description2');
 addKolorArea('description1');
+addKolorArea('description3');
 addKolorBox('websiteViewer');
 addKolorBox('gallery');
 addKolorBox('gallery1');
@@ -298,6 +298,7 @@ function eventUnloadPlugins () {
 	deleteKolorBox('gallery1');
 deleteKolorBox('gallery');
 deleteKolorBox('websiteViewer');
+deleteKolorArea('description3');
 deleteKolorArea('description1');
 deleteKolorArea('description2');
 deleteKolorArea('description');
@@ -318,7 +319,6 @@ deleteKolorBox('gallery15');
 deleteKolorBox('gallery16');
 deleteKolorBox('gallery17');
 deleteKolorBox('gallery18');
-deleteKolorArea('description3');
 
 }
 

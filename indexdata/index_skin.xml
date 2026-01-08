@@ -5008,6 +5008,38 @@
 
 
 
+    
+  <!-- Spot Style - INFO PUENTES -->
+
+
+  <style name="IconINFOPUENTES"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint163.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconINFOPUENTES"
+         onout="onoutIconINFOPUENTES"
+
+
+         />
+  <action name="onhoverIconINFOPUENTES">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconINFOPUENTES">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
 <!-- ********** -->
 <!-- Galería Relojes Pared ESTE -->
 <!-- id : gallery1 -->
@@ -5409,6 +5441,203 @@
 	/>
 
 <!-- ********** -->
+<!-- Descripción3 -->
+<!-- id : description3 -->
+<!-- ********** -->
+
+<ptplugin name="description3" canStart="false" newPano="false" openatstart="false" mode="spot" startMethod="" engine="kolorArea">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="start_position" value="left" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="background_color" value="f2f2f2" type="string" />
+		<option name="background_alpha" value="0.59999999999999998" type="float" />
+		<option name="topleft_radius" value="5" type="int" />
+		<option name="topright_radius" value="5" type="int" />
+		<option name="bottomleft_radius" value="5" type="int" />
+		<option name="bottomright_radius" value="5" type="int" />
+		<option name="area_border_width" value="0" type="int" />
+		<option name="area_border_color" value="f2f2f2" type="string" />
+		<option name="area_border_alpha" value="1" type="float" />
+		<option name="padding" value="15" type="int" />
+		<option name="display_title" value="true" type="bool" />
+		<option name="title" value="description3description_title" type="string" />
+		<option name="title_font" value="Verdana" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_decoration" value="normal" type="string" />
+		<option name="title_color" value="000000" type="string" />
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_text" value="description3display_close_text" type="string" />
+
+		<option name="overlay_displayed" value="false" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="area_width" value="25" type="int" />
+		<option name="area_height" value="20" type="int" />
+		<option name="area_width_unit" value="percent" type="string" />
+		<option name="area_height_unit" value="percent" type="string" />
+		<option name="animation" value="false" type="bool" />
+		<option name="animation_duration" value="500" type="int" />
+		<option name="refresh_content" value="true" type="bool" />
+		<option name="close_callback" value="invokeKrFunction('closeKolorAreaCallback_description3')" type="string" />
+		<option name="close_on_click" value="true" type="bool" />
+		<option name="close_onclick_callback" value="invokeKrFunction('closeKolorAreaCallbackClick_description3')" type="string" />
+		<option name="open_callback" value="invokeKrFunction('openKolorAreaCallback_description3')" type="string" />
+		<option name="zorder" value="4" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+</ptplugin>
+
+<action name="kolorAreaJsReady_description3">
+	set(ptplugin[description3].jsready, true);
+
+</action>
+
+<action name="updateTitle_description3">
+	js(invokePluginFunction(description3, changeTitle, description3description_title));
+</action>
+
+<action name="openKolorArea_description3">
+	ifnot(ptplugin[description3].isOpen,
+		if(ptplugin[description3].doNotDeleteMe,
+		set(ptplugin[description3].currentCall, false);
+		set(ptplugin[description3].doNotDeleteMe, false);
+		set(ptplugin[description3].isOpen, true);
+		
+		js(showKolorArea(description3, get(ptplugin[description3].descID)));
+		,
+			set(ptplugin[description3].currentCall, true);
+			set(ptplugin[description3].doNotDeleteMe, true);
+			events.dispatch(onremovedisplayedobject);
+			delayedcall(0.3,openKolorArea_description3(););
+		);
+	);
+</action>
+
+<action name="closeKolorArea_description3">
+	if(ptplugin[description3].isOpen,
+		if(ptplugin[description3].doNotDeleteMe,
+			set(ptplugin[description3].doNotDeleteMe, false);
+		,
+		js(invokePluginFunction(description3, closeKolorArea));
+		);
+	);
+</action>
+
+<action name="toggleKolorArea_description3">
+	if(ptplugin[description3].isOpen,
+		closeKolorArea_description3();
+	,
+		openKolorArea_description3();
+	);
+</action>
+
+<action name="closeKolorAreaCallback_description3">
+	set(ptplugin[description3].doNotDeleteMe, false);
+	set(ptplugin[description3].isOpen, false);
+	if(tour_displayinfo,hideTourInfo();
+
+	);
+</action>
+
+<action name="closeKolorAreaCallbackClick_description3">
+
+
+	if(tour_displayinfo,hideTourInfo();
+
+	);
+</action>
+
+<action name="openKolorAreaCallback_description3">
+	updateTitle_description3();
+</action>
+
+<action name="showKolorArea_description3">
+	ifnot(ptplugin[description3].startMethod == "",
+		delayedcall(0,get(ptplugin[description3].startMethod));
+	,
+		if(ptplugin[description3].doNotDeleteMe,
+			set(ptplugin[description3].currentCall, false);
+			set(ptplugin[description3].doNotDeleteMe, false);
+		set(ptplugin[description3].isOpen, true);
+		
+		js(invokePluginFunction(description3, showKolorArea, %1));
+		,
+			set(ptplugin[description3].currentCall, true);
+			set(ptplugin[description3].doNotDeleteMe, true);
+			events.dispatch(onremovedisplayedobject);
+			delayedcall(0.3,showKolorArea_description3(%1););
+		);
+	);
+</action>
+	
+<action name="hideKolorArea_description3">
+	if(ptplugin[description3].doNotDeleteMe,
+		set(ptplugin[description3].doNotDeleteMe, false);
+	,
+	
+	set(ptplugin[description3].isOpen, false);
+	js(invokePluginFunction(description3, hideKolorArea, %1));
+	);
+</action>
+
+<action name="openDescription_description3">
+	openKolorArea_description3();
+</action>
+
+<action name="openSpotDescription_description3">
+	set(ptplugin[description3].descID, %1);
+	openKolorArea_description3();
+</action>
+
+<action name="closeDescription_description3">
+	set(ptplugin[description3].currentGroup, false);
+	if(%1,
+		set(restore_description3, true);
+	,
+		set(restore_description3, false);
+	);
+	closeKolorArea_description3();
+</action> 
+
+<action name="showDescription_description3">
+	if(ptplugin[description3].canStart,
+		if(ptplugin[description3].descID != "",
+			openDescription_description3();
+		,
+			hideKolorArea_description3(false);
+		);
+		set(ptplugin[description3].startMethod, "");
+	);
+</action>
+
+
+
+<action name="changeLanguage_description3">
+	if(ptplugin[description3].jsready,
+		stopdelayedcall(delay_description3);
+		js(invokePluginFunction(description3, changeLanguage, true));
+	,
+		delayedcall(delay_description3, 0.1, changeLanguage_description3(););
+	);
+</action>
+
+<events name="kolorAreaEvents_description3" 
+	keep="true"
+	onTourStart="set(ptplugin[description3].canStart, true);if(ptplugin[description3].openatstart,showTourInfo();
+);"
+	onhidetourinfo="delayedcall(0.3,if(ptplugin[description3].isOpen,closeDescription_description3(false);););"
+	onremovepano="if(ptplugin[description3].isOpen,hideTourInfo();
+);"
+	onremovedisplayedobject="ifnot(ptplugin[description3].currentCall,if(ptplugin[description3].isOpen,hideTourInfo();
+););"
+	changetourlanguage="changeLanguage_description3();"
+/>
+
+<!-- ********** -->
 <!-- Descripción2 -->
 <!-- id : description1 -->
 <!-- ********** -->
@@ -5444,7 +5673,7 @@
 		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
 
 		<option name="area_width" value="50" type="int" />
-		<option name="area_height" value="20" type="int" />
+		<option name="area_height" value="24" type="int" />
 		<option name="area_width_unit" value="percent" type="string" />
 		<option name="area_height_unit" value="percent" type="string" />
 		<option name="animation" value="false" type="bool" />
@@ -5454,7 +5683,7 @@
 		<option name="close_on_click" value="true" type="bool" />
 		<option name="close_onclick_callback" value="invokeKrFunction('closeKolorAreaCallbackClick_description1')" type="string" />
 		<option name="open_callback" value="invokeKrFunction('openKolorAreaCallback_description1')" type="string" />
-		<option name="zorder" value="4" type="int" />
+		<option name="zorder" value="5" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 </ptplugin>
@@ -5651,7 +5880,7 @@
 		<option name="close_on_click" value="true" type="bool" />
 		<option name="close_onclick_callback" value="invokeKrFunction('closeKolorAreaCallbackClick_description2')" type="string" />
 		<option name="open_callback" value="invokeKrFunction('openKolorAreaCallback_description2')" type="string" />
-		<option name="zorder" value="5" type="int" />
+		<option name="zorder" value="6" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 </ptplugin>
@@ -5848,7 +6077,7 @@
 		<option name="close_on_click" value="true" type="bool" />
 		<option name="close_onclick_callback" value="invokeKrFunction('closeKolorAreaCallbackClick_description')" type="string" />
 		<option name="open_callback" value="invokeKrFunction('openKolorAreaCallback_description')" type="string" />
-		<option name="zorder" value="6" type="int" />
+		<option name="zorder" value="7" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 </ptplugin>
@@ -6129,7 +6358,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery4close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery4')" type="string" />
-		<option name="zorder" value="9" type="int" />
+		<option name="zorder" value="10" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -6268,7 +6497,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery2close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery2')" type="string" />
-		<option name="zorder" value="10" type="int" />
+		<option name="zorder" value="11" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -6404,7 +6633,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery3close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery3')" type="string" />
-		<option name="zorder" value="11" type="int" />
+		<option name="zorder" value="12" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -6534,7 +6763,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery5close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery5')" type="string" />
-		<option name="zorder" value="12" type="int" />
+		<option name="zorder" value="13" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -6664,7 +6893,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery6close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery6')" type="string" />
-		<option name="zorder" value="13" type="int" />
+		<option name="zorder" value="14" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -6794,7 +7023,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery14close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery14')" type="string" />
-		<option name="zorder" value="14" type="int" />
+		<option name="zorder" value="15" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -6926,7 +7155,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery13close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery13')" type="string" />
-		<option name="zorder" value="15" type="int" />
+		<option name="zorder" value="16" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -7065,7 +7294,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery12close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery12')" type="string" />
-		<option name="zorder" value="16" type="int" />
+		<option name="zorder" value="17" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -7196,7 +7425,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery11close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery11')" type="string" />
-		<option name="zorder" value="17" type="int" />
+		<option name="zorder" value="18" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -7326,7 +7555,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery10close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery10')" type="string" />
-		<option name="zorder" value="18" type="int" />
+		<option name="zorder" value="19" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -7456,7 +7685,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery9close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery9')" type="string" />
-		<option name="zorder" value="19" type="int" />
+		<option name="zorder" value="20" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -7588,7 +7817,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery8close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery8')" type="string" />
-		<option name="zorder" value="20" type="int" />
+		<option name="zorder" value="21" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -7721,7 +7950,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery7close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery7')" type="string" />
-		<option name="zorder" value="21" type="int" />
+		<option name="zorder" value="22" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -7854,7 +8083,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery15close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery15')" type="string" />
-		<option name="zorder" value="22" type="int" />
+		<option name="zorder" value="23" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -7984,7 +8213,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery16close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery16')" type="string" />
-		<option name="zorder" value="23" type="int" />
+		<option name="zorder" value="24" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -8114,7 +8343,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery17close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery17')" type="string" />
-		<option name="zorder" value="24" type="int" />
+		<option name="zorder" value="25" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -8244,7 +8473,7 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 		<option name="close_text" value="gallery18close_text" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery18')" type="string" />
-		<option name="zorder" value="25" type="int" />
+		<option name="zorder" value="26" type="int" />
 		<option name="use_i18n" value="true" type="bool" />
 	</settings>
 	<internaldata>
@@ -8303,202 +8532,25 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
 	changetourlanguage="changeLanguage_gallery18();"
 	/>
 
-<!-- ********** -->
-<!-- Descripción3 -->
-<!-- id : description3 -->
-<!-- ********** -->
-
-<ptplugin name="description3" canStart="false" newPano="false" openatstart="false" mode="spot" startMethod="" engine="kolorArea">
-	<settings>
-		<option name="position" value="center" type="string" />
-		<option name="start_position" value="left" type="string" />
-		<option name="margin_x" value="0" type="int" />
-		<option name="margin_y" value="0" type="int" />
-		<option name="background_color" value="f2f2f2" type="string" />
-		<option name="background_alpha" value="0.59999999999999998" type="float" />
-		<option name="topleft_radius" value="5" type="int" />
-		<option name="topright_radius" value="5" type="int" />
-		<option name="bottomleft_radius" value="5" type="int" />
-		<option name="bottomright_radius" value="5" type="int" />
-		<option name="area_border_width" value="0" type="int" />
-		<option name="area_border_color" value="f2f2f2" type="string" />
-		<option name="area_border_alpha" value="1" type="float" />
-		<option name="padding" value="15" type="int" />
-		<option name="display_title" value="true" type="bool" />
-		<option name="title" value="description3description_title" type="string" />
-		<option name="title_font" value="Verdana" type="string" />
-		<option name="title_size" value="14" type="int" />
-		<option name="title_weight" value="normal" type="string" />
-		<option name="title_decoration" value="normal" type="string" />
-		<option name="title_color" value="000000" type="string" />
-		<option name="close_displayed" value="true" type="bool" />
-		<option name="close_text" value="description3display_close_text" type="string" />
-
-		<option name="overlay_displayed" value="false" type="bool" />
-		<option name="overlay_color" value="000000" type="string" />
-		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
-
-		<option name="area_width" value="25" type="int" />
-		<option name="area_height" value="20" type="int" />
-		<option name="area_width_unit" value="percent" type="string" />
-		<option name="area_height_unit" value="percent" type="string" />
-		<option name="animation" value="false" type="bool" />
-		<option name="animation_duration" value="500" type="int" />
-		<option name="refresh_content" value="true" type="bool" />
-		<option name="close_callback" value="invokeKrFunction('closeKolorAreaCallback_description3')" type="string" />
-		<option name="close_on_click" value="true" type="bool" />
-		<option name="close_onclick_callback" value="invokeKrFunction('closeKolorAreaCallbackClick_description3')" type="string" />
-		<option name="open_callback" value="invokeKrFunction('openKolorAreaCallback_description3')" type="string" />
-		<option name="zorder" value="26" type="int" />
-		<option name="use_i18n" value="true" type="bool" />
-	</settings>
-</ptplugin>
-
-<action name="kolorAreaJsReady_description3">
-	set(ptplugin[description3].jsready, true);
-
-</action>
-
-<action name="updateTitle_description3">
-	js(invokePluginFunction(description3, changeTitle, description3description_title));
-</action>
-
-<action name="openKolorArea_description3">
-	ifnot(ptplugin[description3].isOpen,
-		if(ptplugin[description3].doNotDeleteMe,
-		set(ptplugin[description3].currentCall, false);
-		set(ptplugin[description3].doNotDeleteMe, false);
-		set(ptplugin[description3].isOpen, true);
-		
-		js(showKolorArea(description3, get(ptplugin[description3].descID)));
-		,
-			set(ptplugin[description3].currentCall, true);
-			set(ptplugin[description3].doNotDeleteMe, true);
-			events.dispatch(onremovedisplayedobject);
-			delayedcall(0.3,openKolorArea_description3(););
-		);
+<action name="setViewArchitectural">
+	if(normalViewActivated,stopSetViewTweens(););
+	if(current_view_isflat === true,
+		setViewNonFlat(VFOV);
 	);
+	setViewArchitecturalComplete();
 </action>
 
-<action name="closeKolorArea_description3">
-	if(ptplugin[description3].isOpen,
-		if(ptplugin[description3].doNotDeleteMe,
-			set(ptplugin[description3].doNotDeleteMe, false);
-		,
-		js(invokePluginFunction(description3, closeKolorArea));
-		);
+<action name="setViewArchitecturalComplete">
+	set(view.fovmax, get(panoview.fovmax));
+	set(view.fisheyefovlink, 0.5);
+	tween(view.architectural, 1.0, distance(1.0, 0.45));
+	tween(view.pannini, 0.0, distance(1.0, 0.45), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
+	tween(view.fisheye, 0.0, distance(1.0, 0.45), easeOutQuad, 
+		set(view.stereographic,false);
+		tween(view.vlookat, get(panoview.v), distance(90, 0.45));
 	);
+	tween(view.fov, get(panoview.fov), distance(50, 0.45));
 </action>
-
-<action name="toggleKolorArea_description3">
-	if(ptplugin[description3].isOpen,
-		closeKolorArea_description3();
-	,
-		openKolorArea_description3();
-	);
-</action>
-
-<action name="closeKolorAreaCallback_description3">
-	set(ptplugin[description3].doNotDeleteMe, false);
-	set(ptplugin[description3].isOpen, false);
-	if(tour_displayinfo,hideTourInfo();
-
-	);
-</action>
-
-<action name="closeKolorAreaCallbackClick_description3">
-
-
-	if(tour_displayinfo,hideTourInfo();
-
-	);
-</action>
-
-<action name="openKolorAreaCallback_description3">
-	updateTitle_description3();
-</action>
-
-<action name="showKolorArea_description3">
-	ifnot(ptplugin[description3].startMethod == "",
-		delayedcall(0,get(ptplugin[description3].startMethod));
-	,
-		if(ptplugin[description3].doNotDeleteMe,
-			set(ptplugin[description3].currentCall, false);
-			set(ptplugin[description3].doNotDeleteMe, false);
-		set(ptplugin[description3].isOpen, true);
-		
-		js(invokePluginFunction(description3, showKolorArea, %1));
-		,
-			set(ptplugin[description3].currentCall, true);
-			set(ptplugin[description3].doNotDeleteMe, true);
-			events.dispatch(onremovedisplayedobject);
-			delayedcall(0.3,showKolorArea_description3(%1););
-		);
-	);
-</action>
-	
-<action name="hideKolorArea_description3">
-	if(ptplugin[description3].doNotDeleteMe,
-		set(ptplugin[description3].doNotDeleteMe, false);
-	,
-	
-	set(ptplugin[description3].isOpen, false);
-	js(invokePluginFunction(description3, hideKolorArea, %1));
-	);
-</action>
-
-<action name="openDescription_description3">
-	openKolorArea_description3();
-</action>
-
-<action name="openSpotDescription_description3">
-	set(ptplugin[description3].descID, %1);
-	openKolorArea_description3();
-</action>
-
-<action name="closeDescription_description3">
-	set(ptplugin[description3].currentGroup, false);
-	if(%1,
-		set(restore_description3, true);
-	,
-		set(restore_description3, false);
-	);
-	closeKolorArea_description3();
-</action> 
-
-<action name="showDescription_description3">
-	if(ptplugin[description3].canStart,
-		if(ptplugin[description3].descID != "",
-			openDescription_description3();
-		,
-			hideKolorArea_description3(false);
-		);
-		set(ptplugin[description3].startMethod, "");
-	);
-</action>
-
-
-
-<action name="changeLanguage_description3">
-	if(ptplugin[description3].jsready,
-		stopdelayedcall(delay_description3);
-		js(invokePluginFunction(description3, changeLanguage, true));
-	,
-		delayedcall(delay_description3, 0.1, changeLanguage_description3(););
-	);
-</action>
-
-<events name="kolorAreaEvents_description3" 
-	keep="true"
-	onTourStart="set(ptplugin[description3].canStart, true);if(ptplugin[description3].openatstart,showTourInfo();
-);"
-	onhidetourinfo="delayedcall(0.3,if(ptplugin[description3].isOpen,closeDescription_description3(false);););"
-	onremovepano="if(ptplugin[description3].isOpen,hideTourInfo();
-);"
-	onremovedisplayedobject="ifnot(ptplugin[description3].currentCall,if(ptplugin[description3].isOpen,hideTourInfo();
-););"
-	changetourlanguage="changeLanguage_description3();"
-/>
 
   <!-- Sounds Management -->
   <plugin name="soundinterface"
@@ -8977,26 +9029,6 @@ playsound3Dwhenpossible(soundcallActionsOnTourEvents1, %$videos_sounds_path%/sou
       );
     );
   </action>
-
-<action name="setViewArchitectural">
-	if(normalViewActivated,stopSetViewTweens(););
-	if(current_view_isflat === true,
-		setViewNonFlat(VFOV);
-	);
-	setViewArchitecturalComplete();
-</action>
-
-<action name="setViewArchitecturalComplete">
-	set(view.fovmax, get(panoview.fovmax));
-	set(view.fisheyefovlink, 0.5);
-	tween(view.architectural, 1.0, distance(1.0, 0.45));
-	tween(view.pannini, 0.0, distance(1.0, 0.45), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
-	tween(view.fisheye, 0.0, distance(1.0, 0.45), easeOutQuad, 
-		set(view.stereographic,false);
-		tween(view.vlookat, get(panoview.v), distance(90, 0.45));
-	);
-	tween(view.fov, get(panoview.fov), distance(50, 0.45));
-</action>
 
   <!-- Tour Information -->
   <action name="hideTourInfo">set(tour_displayinfo, false);events.dispatch(onhidetourinfo);</action>

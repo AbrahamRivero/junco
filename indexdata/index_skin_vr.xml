@@ -4986,6 +4986,58 @@
 
 
 
+    
+  <!-- Spot Style - INFO PUENTES -->
+
+
+  <style name="IconINFOPUENTES"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint163.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconINFOPUENTES"
+         onout="onoutIconINFOPUENTES"
+
+
+         />
+  <action name="onhoverIconINFOPUENTES">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconINFOPUENTES">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+<action name="setViewArchitectural">
+	if(normalViewActivated,stopSetViewTweens(););
+	if(current_view_isflat === true,
+		setViewNonFlat(VFOV);
+	);
+	setViewArchitecturalComplete();
+</action>
+
+<action name="setViewArchitecturalComplete">
+	set(view.fovmax, get(panoview.fovmax));
+	set(view.fisheyefovlink, 0.5);
+	tween(view.architectural, 1.0, distance(1.0, 0.45));
+	tween(view.pannini, 0.0, distance(1.0, 0.45), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
+	tween(view.fisheye, 0.0, distance(1.0, 0.45), easeOutQuad, 
+		set(view.stereographic,false);
+		tween(view.vlookat, get(panoview.v), distance(90, 0.45));
+	);
+	tween(view.fov, get(panoview.fov), distance(50, 0.45));
+</action>
+
   <!-- Sounds Management -->
   <plugin name="soundinterface"
           preload="true"
@@ -5463,26 +5515,6 @@
       );
     );
   </action>
-
-<action name="setViewArchitectural">
-	if(normalViewActivated,stopSetViewTweens(););
-	if(current_view_isflat === true,
-		setViewNonFlat(VFOV);
-	);
-	setViewArchitecturalComplete();
-</action>
-
-<action name="setViewArchitecturalComplete">
-	set(view.fovmax, get(panoview.fovmax));
-	set(view.fisheyefovlink, 0.5);
-	tween(view.architectural, 1.0, distance(1.0, 0.45));
-	tween(view.pannini, 0.0, distance(1.0, 0.45), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
-	tween(view.fisheye, 0.0, distance(1.0, 0.45), easeOutQuad, 
-		set(view.stereographic,false);
-		tween(view.vlookat, get(panoview.v), distance(90, 0.45));
-	);
-	tween(view.fov, get(panoview.fov), distance(50, 0.45));
-</action>
 
   <!-- Tour Information -->
   <action name="hideTourInfo">set(tour_displayinfo, false);events.dispatch(onhidetourinfo);</action>
